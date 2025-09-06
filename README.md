@@ -24,7 +24,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/Insanitydzikriyana30/Insanitydzikriyana30/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/insanitydzikriyana/insanitydzikriyana/output/snake.svg" alt="Snake animation" />
 
 <!-- ###
 
