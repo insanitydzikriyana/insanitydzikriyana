@@ -1,0 +1,92 @@
+{
+  "$schema": "./profile.schema.json",
+  "profile": {
+    "name": "Insanity dzikriyana",
+    "username": "insanity",
+    "headline": "Web Developer • AI Builder • Infrastructure Engineer",
+    "affiliation": "PT Netcom Scinergy Newsantara",
+    "location": "Karawang, Indonesia",
+    "status": "Shipping / Automating / Optimizing",
+    "about": [
+      "I build fast, reliable web products and the infrastructure that keeps them running smoothly in production.",
+      "My work spans modern web development, backend systems, server operations, and applied AI to automate workflows and solve real-world problems.",
+      "I graduated from SMKN 1 Karawang and keep growing through hands-on work in software engineering, infrastructure, and intelligent systems."
+    ]
+  },
+  "research": {
+    "primary": "AI + Web Systems",
+    "direction": "Reliable products, automation, and resilient infrastructure",
+    "themes": "Frontend / backend / AI workflows / infrastructure / reliability",
+    "narrative": "I am focused on creating dependable digital experiences that combine modern web engineering, intelligent automation, and resilient system operations."
+  },
+  "focus": [
+    {
+      "name": "Full-Stack Development",
+      "description": "Building clean, scalable, and user-focused web applications that solve real problems efficiently."
+    },
+    {
+      "name": "Server & Infrastructure",
+      "description": "Managing deployments, uptime, performance, and production stability for critical digital services."
+    },
+    {
+      "name": "AI Automation",
+      "description": "Exploring practical AI workflows and intelligent automation to improve efficiency, reliability, and decision-making."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Web Application Systems",
+      "url": "https://github.com/insanity",
+      "homepage": "",
+      "focus": "Web development",
+      "summary": "Building reliable web applications and internal business systems with modern development workflows.",
+      "heroLabel": "Core build"
+    },
+    {
+      "name": "Server & Deployment Ops",
+      "url": "https://github.com/insanity",
+      "homepage": "",
+      "focus": "Infrastructure",
+      "summary": "Managing hosting, deployment, uptime, and maintenance for production-ready services and systems.",
+      "heroLabel": "Live ops"
+    }
+  ],
+  "techStack": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "Linux",
+    "Nginx",
+    "Apache",
+    "Git",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Server Management",
+    "REST API"
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "value": "insanity",
+      "url": "https://github.com/insanity",
+      "logo": "github",
+      "color": "0B1220"
+    },
+    {
+      "label": "Instagram",
+      "value": "@insanity",
+      "url": "https://instagram.com/insanity",
+      "logo": "instagram",
+      "color": "E1306C"
+    }
+  ],
+  "activity": {
+    "enabled": true,
+    "limit": 6
+  },
+  "appearance": {
+    "palette": "signal"
+  },
+  "footer": "Building reliable systems, smart products, and practical AI-powered experiences."
+}
