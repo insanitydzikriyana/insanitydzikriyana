@@ -19,21 +19,13 @@
 
 <br>
 
+<img src="./assets/intro-code.svg" alt="Animated code introduction: Insanity Dzikriyana, Software Engineer and Hosting and Server Specialist from Bandung, graduate of SMKN 1 Karawang" width="100%">
+
 <img src="./assets/developer-typing.svg" alt="Animated illustration of a developer typing at a computer" width="100%">
 
 </div>
 
 ## 🚀 About Me
-
-```js
-const insanity = {
-  name: "Insanity Dzikriyana",
-  position: ["Software Engineer", "Hosting & Server Specialist"],
-  origin: "Bandung, Indonesia",
-  education: "Graduate of SMKN 1 Karawang",
-  focus: ["Web Development", "Hosting", "Server Management"],
-};
-```
 
 I build websites and applications with PHP and Laravel, design responsive interfaces, and help get projects online through hosting and server management.
 
