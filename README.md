@@ -7,6 +7,7 @@
 <p>PHP & Laravel · Web Apps · Bots · Hosting & Deployment</p>
 
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/insanitydzikriyana)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/insanity-dzikriyana)
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/insanity)
 
 <img src="./assets/rgb-line.svg" alt="Animated RGB line" width="100%">
@@ -28,6 +29,33 @@ I also work with Figma, bots, hosting, and deployment—helping take ideas from 
 | **Frontend & UI** | Responsive interfaces with Tailwind CSS, Bootstrap, HTML, CSS, and Figma. |
 | **Hosting & Deployment** | Putting websites and applications online and managing hosting. |
 | **Bots** | Building bots and automation for practical workflows. |
+
+## 💼 Experience
+
+### Event Operator — Guinness World Records™ Generative AI Event
+**Yayasan Sagasitas Indonesia · October 2025 – April 2026**
+
+Supported an event where students and teachers created generative AI apps with AWS PartyRock. The event record reported on LinkedIn was **20,137 apps created by more than 2,600 participants**.
+
+### Internship — Kantor Imigrasi Kelas I Non TPI Karawang
+**Karawang · 3-month practical work placement**
+
+Supported passport lamination, Microsoft Excel work, and data entry.
+
+### Photography Business Operations
+**Next Generation / Sapujaga PhotoChantiq · 2025–present · Karawang**
+
+Help manage two photography businesses serving newborn, baby, wedding, pre-wedding, and event clients, including operations, client coordination, production, and digital marketing.
+
+## 🚀 Selected Projects
+
+### Aspirasi-UKK
+
+A school feedback platform developed for a vocational competency project. It helps students submit complaints, suggestions, and other feedback in a structured way.
+
+### Elevone — iLab
+
+A learning laboratory information system project presented as a way to make lab workflows more organized and digital.
 
 ## 🛠️ Tech Stack
 
