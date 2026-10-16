@@ -3,16 +3,16 @@
   <defs>
     <clipPath id="leftReveal">
       <rect x="250" y="0" width="0" height="46">
-        <animate attributeName="width" values="0;130;130" keyTimes="0;.45;1" dur="2.2s" fill="freeze"/>
+        <animate attributeName="width" values="0;120;120" keyTimes="0;.45;1" dur="1.4s" fill="freeze"/>
       </rect>
     </clipPath>
     <clipPath id="rightReveal">
-      <rect x="520" y="0" width="0" height="46">
-        <animate attributeName="x" values="520;370;370" keyTimes="0;.45;1" dur="2.2s" fill="freeze"/>
-        <animate attributeName="width" values="0;150;150" keyTimes="0;.45;1" dur="2.2s" fill="freeze"/>
+      <rect x="505" y="0" width="0" height="46">
+        <animate attributeName="x" values="505;370;370" keyTimes="0;.45;1" dur="1.4s" fill="freeze"/>
+        <animate attributeName="width" values="0;135;135" keyTimes="0;.45;1" dur="1.4s" fill="freeze"/>
       </rect>
     </clipPath>
   </defs>
-  <text x="255" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
+  <text x="260" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
   <text x="370" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#rightReveal)">Dzikriyana</text>
 </svg>
