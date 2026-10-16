@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="112" viewBox="0 0 1000 112" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Insanity Dzikriyana animated RGB title</title>
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/><stop offset=".2" stop-color="#397BFF"/><stop offset=".42" stop-color="#A64DFF"/><stop offset=".64" stop-color="#FF42B3"/><stop offset=".82" stop-color="#FF8A3D"/><stop offset="1" stop-color="#FFE45E"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1000 0;1000 0;-1000 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="neon" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#neon)">
+    <text x="500" y="77" text-anchor="middle" fill="url(#spectrum)" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1">Insanity Dzikriyana">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="2.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
