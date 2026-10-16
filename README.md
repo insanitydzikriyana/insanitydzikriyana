@@ -1,33 +1,25 @@
 <div align="center">
 
-# Insanity Dzikriyana
+<h1>Hey there, I'm Insanity Dzikriyana! 👋</h1>
 
-### Software Engineer · Programmer · PHP & Laravel Developer
+<h2><code>Software Engineer · Programmer</code> 💻</h2>
 
-Building web applications, bots, and the infrastructure that keeps them online.
+<p>PHP & Laravel · Web Apps · Bots · Hosting & Deployment</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-insanitydzikriyana-111827?style=for-the-badge&logo=github)](https://github.com/insanitydzikriyana)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](#tech-stack)
-[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](#tech-stack)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](#tech-stack)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](#tech-stack)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/insanitydzikriyana)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/insanity)
 
-```text
-╭──────────────────────────────────────────────────────────────╮
-│  SOFTWARE ENGINEERING   /   WEB DEVELOPMENT   /   DEPLOYMENT │
-│  PHP + LARAVEL  ·  TAILWIND  ·  BOOTSTRAP  ·  FIGMA  ·  BOTS │
-╰──────────────────────────────────────────────────────────────╯
-```
+<img src="./assets/rgb-line.svg" alt="Animated RGB line" width="100%">
 
 </div>
 
-## About Me
+## 🚀 About Me
 
 Hi, I’m **Insanity Dzikriyana**, a software engineer and programmer based in **Karawang, Indonesia**. I build websites and web applications with PHP and Laravel, and create responsive interfaces using Tailwind CSS and Bootstrap.
 
-I’m also interested in UI design with Figma, bot development, and hosting and deployment—from turning an idea into an application to getting it online.
+I also work with Figma, bots, hosting, and deployment—helping take ideas from design to a live application.
 
-## What I Do
+## 🧩 What I Do
 
 | Area | Focus |
 | --- | --- |
@@ -37,7 +29,7 @@ I’m also interested in UI design with Figma, bot development, and hosting and 
 | **Hosting & Deployment** | Putting websites and applications online and managing hosting. |
 | **Bots** | Building bots and automation for practical workflows. |
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -56,7 +48,7 @@ I’m also interested in UI design with Figma, bot development, and hosting and 
 
 </div>
 
-## Find Me
+## 📫 Find Me
 
 - GitHub: [@insanitydzikriyana](https://github.com/insanitydzikriyana)
 - Instagram: [@insanity](https://instagram.com/insanity)
