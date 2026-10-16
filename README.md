@@ -2,13 +2,20 @@
 
 <h1>Hey there, I'm Insanity Dzikriyana! 👋</h1>
 
-<h2><code>Software Engineer · Programmer</code> 💻</h2>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=700&color=E6EDF3&center=true&vCenter=true&width=760&lines=Software+Engineer;Programmer;PHP+%26+Laravel+Developer;Hosting+%26+Server+Specialist" alt="Software Engineer, Programmer, PHP and Laravel Developer, Hosting and Server Specialist">
 
-<p>PHP & Laravel · Web Apps · Bots · Hosting & Deployment</p>
+<p>PHP & Laravel · Web Apps · Bots · Hosting & Server Management</p>
 
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/insanity-dzikriyana/)
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/insanitydzikriyana)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/insanity-dzikriyana)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/insanity)
+[![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kerjainsanity@gmail.com)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/insistdz_)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Insistdz_)
+[![TikTok](https://img.shields.io/badge/TIKTOK-111111?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@Insistdz_)
+
+<br>
+
+<img src="./assets/developer-typing.svg" alt="Animated illustration of a developer typing at a computer" width="100%">
 
 <img src="./assets/rgb-line.svg" alt="Animated RGB line" width="100%">
 
@@ -27,7 +34,7 @@ I also work with Figma, bots, hosting, and deployment—helping take ideas from 
 | **Software Engineering** | Designing and building useful software and web applications. |
 | **Backend Development** | PHP, Laravel, databases, and APIs. |
 | **Frontend & UI** | Responsive interfaces with Tailwind CSS, Bootstrap, HTML, CSS, and Figma. |
-| **Hosting & Deployment** | Putting websites and applications online and managing hosting. |
+| **Hosting & Server Management** | Setting up hosting, managing servers, deploying websites and applications. |
 | **Bots** | Building bots and automation for practical workflows. |
 
 ## 💼 Experience
@@ -73,13 +80,14 @@ A learning laboratory information system project presented as a way to make lab 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Hosting](https://img.shields.io/badge/Web_Hosting-22C55E?style=flat-square&logo=serverfault&logoColor=white)
+![Server Management](https://img.shields.io/badge/Server_Management-334155?style=flat-square&logo=linux&logoColor=white)
 
 </div>
 
 ## 📫 Find Me
 
 - GitHub: [@insanitydzikriyana](https://github.com/insanitydzikriyana)
-- Instagram: [@insanity](https://instagram.com/insanity)
+- Instagram: [@Insistdz_](https://instagram.com/insistdz_)
 
 <div align="center">
 
