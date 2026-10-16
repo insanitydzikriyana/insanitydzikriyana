@@ -1,83 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Developer typing at a computer</title>
-  <desc id="desc">A neon-lit developer works at a computer while code scrolls on the screen.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Cute animated programmer typing at a computer</title>
+  <desc id="desc">A cheerful chibi-style programmer sits at a desk and types on a glowing keyboard.</desc>
   <defs>
-    <linearGradient id="panel" x1="80" y1="24" x2="870" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111827"/>
-      <stop offset="1" stop-color="#090D15"/>
+    <linearGradient id="screen" x1="238" y1="70" x2="498" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#152D4A"/><stop offset="1" stop-color="#0A1120"/>
     </linearGradient>
-    <linearGradient id="screen" x1="190" y1="85" x2="440" y2="270" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#10243A"/>
-      <stop offset="1" stop-color="#090E1B"/>
+    <linearGradient id="hoodie" x1="539" y1="169" x2="678" y2="274" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D5FF"/><stop offset="1" stop-color="#7654FF"/>
     </linearGradient>
-    <linearGradient id="shirt" x1="543" y1="181" x2="691" y2="305" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#315CFF"/>
-      <stop offset="1" stop-color="#8B36E9"/>
+    <linearGradient id="rgb" x1="170" y1="0" x2="730" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/><stop offset=".5" stop-color="#8855FF"/><stop offset="1" stop-color="#FF4BA6"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect x="22" y="16" width="916" height="328" rx="20" fill="url(#panel)" stroke="#263346"/>
-  <ellipse cx="492" cy="318" rx="322" ry="15" fill="#2269FF" opacity=".18" filter="url(#soft)"/>
-  <text x="58" y="54" fill="#8FA4BE" font-family="monospace" font-size="12" letter-spacing="2">BUILD · DEPLOY · REPEAT</text>
-  <circle cx="880" cy="46" r="4" fill="#3DFFB2"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
-  <text x="858" y="50" fill="#91A4BD" font-family="monospace" font-size="10" text-anchor="end">ONLINE</text>
+  <!-- Soft, friendly floating sparkles -->
+  <path d="M192 103l5 13 13 5-13 5-5 13-5-13-13-5 13-5 5-13zm511-31l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10z" fill="#82F7FF" opacity=".8">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="716" cy="132" r="4" fill="#FF70C8"><animate attributeName="cy" values="132;125;132" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="181" cy="185" r="3" fill="#A18BFF"><animate attributeName="cy" values="185;178;185" dur="1.7s" repeatCount="indefinite"/></circle>
 
-  <!-- Monitor -->
-  <rect x="111" y="75" width="379" height="218" rx="13" fill="#080B12" stroke="#40516B" stroke-width="2"/>
-  <rect x="121" y="85" width="359" height="198" rx="8" fill="url(#screen)"/>
-  <rect x="121" y="85" width="359" height="25" rx="8" fill="#172235"/>
-  <circle cx="139" cy="97" r="3.5" fill="#FF5F57"/><circle cx="152" cy="97" r="3.5" fill="#FFBD2E"/><circle cx="165" cy="97" r="3.5" fill="#28C840"/>
-  <text x="300" y="101" fill="#7889A2" font-family="monospace" font-size="10" text-anchor="middle">app.php — insanity.dev</text>
-  <g font-family="monospace" font-size="12">
-    <text x="145" y="137" fill="#7C8CA7">01</text><text x="174" y="137" fill="#C792EA">&lt;?php</text>
-    <text x="145" y="162" fill="#7C8CA7">02</text><text x="174" y="162" fill="#82AAFF">Route</text><text x="211" y="162" fill="#F2CD7A">::get</text><text x="249" y="162" fill="#D8DEE9">('/hello',</text>
-    <text x="145" y="187" fill="#7C8CA7">03</text><text x="174" y="187" fill="#A6E3A1">fn</text><text x="192" y="187" fill="#D8DEE9">() =&gt; </text><text x="236" y="187" fill="#89DDFF">view</text><text x="268" y="187" fill="#D8DEE9">('welcome');</text>
-    <text x="145" y="212" fill="#7C8CA7">04</text><text x="174" y="212" fill="#6B7890">// ship something useful</text>
-    <text x="145" y="237" fill="#7C8CA7">05</text><text x="174" y="237" fill="#82AAFF">return</text><text x="221" y="237" fill="#D8DEE9">response()-&gt;json($data);</text>
-    <rect x="174" y="252" width="7" height="15" rx="1" fill="#21E6D3"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  <!-- Desk -->
+  <path d="M117 267h665" stroke="#61738F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M166 276v37m567-37v37" stroke="#43546F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M145 314h607" stroke="#25334A" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Computer -->
+  <rect x="211" y="57" width="318" height="190" rx="18" fill="#101827" stroke="#7183A2" stroke-width="4"/>
+  <rect x="222" y="68" width="296" height="165" rx="11" fill="url(#screen)"/>
+  <path d="M337 249v15m68-15v15m-92 2h116" stroke="#72829D" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="240" cy="85" r="4" fill="#FF7185"/><circle cx="254" cy="85" r="4" fill="#FFD166"/><circle cx="268" cy="85" r="4" fill="#55E89B"/>
+  <g font-family="monospace" font-size="13" font-weight="700">
+    <text x="251" y="119" fill="#B48CFF">&lt;?php</text>
+    <text x="251" y="145" fill="#83E7FF">echo</text><text x="292" y="145" fill="#FFE08A"> "Hello!";</text>
+    <text x="251" y="171" fill="#83E7FF">build</text><text x="294" y="171" fill="#B7F7C2">("cool things");</text>
+    <rect x="251" y="187" width="8" height="17" rx="2" fill="#72F6FF"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
   </g>
-  <path d="M268 294v13m48-13v13m-74 0h100" stroke="#66758D" stroke-width="5" stroke-linecap="round"/>
-  <path d="M242 308h101" stroke="#24344B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M318 215h105" stroke="#21D9E8" stroke-width="2" stroke-dasharray="5 8" opacity=".55"/>
 
-  <!-- Desk and keyboard -->
-  <path d="M83 304h795" stroke="#71809A" stroke-width="7" stroke-linecap="round"/>
-  <path d="M140 311v26m679-26v26" stroke="#46556C" stroke-width="6" stroke-linecap="round"/>
-  <path d="M389 287h132l-12 14H400z" fill="#26364E" stroke="#546783"/>
-  <path d="M403 292h105" stroke="#21D7E8" stroke-width="2" stroke-dasharray="4 6" opacity=".9"/>
+  <!-- Comfy chair -->
+  <path d="M645 199c0-20 15-34 34-34h49c18 0 31 14 31 32v58H645z" fill="#202B40" stroke="#61718B" stroke-width="3"/>
+  <path d="M679 256v37m49-37v37m-69 0h89" stroke="#61718B" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="678" cy="298" r="6" fill="#384A67"/><circle cx="746" cy="298" r="6" fill="#384A67"/>
 
-  <!-- Chair -->
-  <path d="M727 181c0-17 12-29 29-29h53c18 0 30 13 30 30v83H727z" fill="#192235" stroke="#53617A" stroke-width="3"/>
-  <path d="M756 266v35m51-35v35m-70 0h86" stroke="#53617A" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="739" cy="309" r="6" fill="#33445E"/><circle cx="842" cy="309" r="6" fill="#33445E"/>
+  <!-- Small chibi programmer -->
+  <!-- legs and sneakers -->
+  <path d="M569 246c-4 22 5 36 26 42l43 12" stroke="#313D5A" stroke-width="20" stroke-linecap="round"/>
+  <path d="M626 296c15 2 28 9 29 17 0 5-6 8-15 7l-47-9c-7-2-10-8-5-13 8-7 21-6 38-2z" fill="#E7F4FF" stroke="#9DB5D3" stroke-width="2"/>
+  <path d="M657 313h-25" stroke="#FF65B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M614 241c-7 20-4 35 13 46l41 19" stroke="#313D5A" stroke-width="20" stroke-linecap="round"/>
+  <path d="M666 302c14 5 23 14 21 21-1 5-7 7-16 4l-44-18c-7-3-8-9-2-13 9-5 21 0 41 6z" fill="#E7F4FF" stroke="#9DB5D3" stroke-width="2"/>
+  <path d="M687 322h-24" stroke="#48DDF5" stroke-width="4" stroke-linecap="round"/>
 
-  <!-- Seated developer -->
-  <path d="M587 188c15-15 34-20 55-15 26 6 39 29 43 61l9 67H539l9-71c4-22 17-34 39-42z" fill="url(#shirt)" stroke="#8A9BFF" stroke-width="2"/>
-  <path d="M602 186l18 22 21-22" stroke="#B3C1FF" stroke-width="3" opacity=".8"/>
-  <path d="M579 288h89l-11 16h-88z" fill="#182033"/>
-  <path d="M574 300l-29 33m99-31 31 31" stroke="#8C9AB0" stroke-width="13" stroke-linecap="round"/>
-  <path d="M529 336h-24m177 0h24" stroke="#66758D" stroke-width="6" stroke-linecap="round"/>
+  <!-- Hoodie body -->
+  <path d="M556 168c15-14 34-20 56-17 25 3 43 20 49 45l14 54H530l8-52c2-13 8-23 18-30z" fill="url(#hoodie)" stroke="#9B9AFF" stroke-width="3"/>
+  <path d="M575 165c4 19 17 29 33 29s29-10 34-29" stroke="#C7C6FF" stroke-width="4"/>
+  <path d="M606 197v45m-8-28 8 8 8-8" stroke="#D5E5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
 
-  <!-- Head, hair, and headset -->
-  <path d="M596 145c0-29 17-48 43-48 27 0 45 20 45 48v15c0 25-19 43-44 43-26 0-44-18-44-43z" fill="#C98B70"/>
-  <path d="M593 147c-7-31 7-61 40-68 28-6 54 10 59 36 3 15-1 25-7 34-4-16-13-27-28-33-18 10-39 13-61 11l-3 22z" fill="#202237"/>
-  <path d="M590 139c-13-5-20 3-17 17 2 10 9 15 19 13m93-30c13-5 20 3 17 17-2 10-9 15-19 13" stroke="#21E6D3" stroke-width="4"/>
-  <path d="M586 161c-9-13-8-28-2-39m112 39c9-13 8-28 2-39" stroke="#21E6D3" stroke-width="2" opacity=".8"/>
+  <!-- Big friendly face -->
+  <path d="M548 119c0-34 21-56 53-56s54 23 54 56v17c0 33-23 54-54 54s-53-21-53-54z" fill="#F3BD91" stroke="#FFD8B7" stroke-width="2"/>
+  <path d="M543 119c-4-36 14-66 51-71 33-5 62 17 64 51 1 13-2 24-8 34-7-18-18-29-35-34-21 14-43 18-68 13l-4 17z" fill="#29304B"/>
+  <path d="M558 127c4-4 10-4 14 0m48 0c4-4 10-4 14 0" stroke="#38405E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="568" cy="139" r="3.5" fill="#26334D"/><circle cx="626" cy="139" r="3.5" fill="#26334D"/>
+  <path d="M581 155c8 9 22 9 30 0" stroke="#D96F78" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="550" cy="151" rx="7" ry="4" fill="#FF8D9F" opacity=".7"/><ellipse cx="644" cy="151" rx="7" ry="4" fill="#FF8D9F" opacity=".7"/>
+  <path d="M547 108c-10-4-16 2-14 12 1 8 7 12 15 11m108-23c10-4 16 2 14 12-1 8-7 12-15 11" stroke="#55E8FF" stroke-width="4"/>
 
-  <!-- Moving arms and hands -->
+  <!-- Little hands bounce while typing -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 3;0 0;0 -1;0 0" dur=".42s" repeatCount="indefinite"/>
-    <path d="M573 210c-26 5-49 18-66 36l-47 26" stroke="#596DFF" stroke-width="23" stroke-linecap="round"/>
-    <path d="M460 270l-27 13c-8 4-17-1-17-9 0-5 4-9 9-11l29-12" fill="#C98B70"/>
-    <path d="M638 211c-30 3-60 13-83 29l-65 37" stroke="#7653EA" stroke-width="22" stroke-linecap="round"/>
-    <path d="M496 278l-26 12c-8 4-17 0-18-8-1-5 3-10 8-12l30-13" fill="#C98B70"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 3;0 0;0 -2;0 0" dur=".38s" repeatCount="indefinite"/>
+    <path d="M550 201c-21 9-39 25-55 41l-44 8" stroke="#45C9F7" stroke-width="15" stroke-linecap="round"/>
+    <path d="M454 250l-16 8c-7 3-14-1-13-7 1-4 4-7 8-8l17-5" fill="#F3BD91"/>
+    <path d="M632 203c-26 6-49 17-69 33l-47 15" stroke="#5E83FF" stroke-width="15" stroke-linecap="round"/>
+    <path d="M524 251l-17 8c-7 3-14-1-13-7 1-4 4-7 8-8l18-5" fill="#F3BD91"/>
   </g>
-  <path d="M445 284l6-9m8 14 7-10m-2 15 8-10" stroke="#FFD29E" stroke-width="2" stroke-linecap="round" opacity=".9"/>
 
+  <!-- Keyboard and tiny typing sparkles -->
+  <path d="M394 260h177l-11 17H405z" fill="#202C42" stroke="#7183A2" stroke-width="2"/>
+  <path d="M412 265h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5m8 0h5" stroke="#62E9FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M446 241l-5-8m66 8 5-8m-35 3v-9" stroke="#FFE48A" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="opacity" values=".3;1;.3" dur=".8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Small RGB floor glow -->
+  <ellipse cx="477" cy="316" rx="246" ry="8" fill="url(#rgb)" opacity=".28"/>
 </svg>

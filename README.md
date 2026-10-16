@@ -15,6 +15,8 @@
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Insistdz_)
 [![TikTok](https://img.shields.io/badge/TIKTOK-111111?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@Insistdz_)
 
+<img src="./assets/social-rgb-bars.svg" alt="Animated thick RGB lines below social links" width="100%">
+
 <br>
 
 <img src="./assets/developer-typing.svg" alt="Animated illustration of a developer typing at a computer" width="100%">
@@ -23,9 +25,19 @@
 
 ## 🚀 About Me
 
-Hi, I’m **Insanity Dzikriyana**, a software engineer and programmer based in **Karawang, Indonesia**. I build websites and web applications with PHP and Laravel, and create responsive interfaces using Tailwind CSS and Bootstrap.
+```js
+const insanity = {
+  name: "Insanity Dzikriyana",
+  position: ["Software Engineer", "Hosting & Server Specialist"],
+  origin: "Bandung, Indonesia",
+  education: "Graduate of SMKN 1 Karawang",
+  focus: ["Web Development", "Hosting", "Server Management"],
+};
+```
 
-I also work with Figma, bots, hosting, and deployment—helping take ideas from design to a live application.
+I build websites and applications with PHP and Laravel, design responsive interfaces, and help get projects online through hosting and server management.
+
+> “Dari setiap butir kode, kita bisa merakit teknologi yang berdampak besar. Terus berinovasi dan berkarya dengan kreatif demi Indonesia.”
 
 ## 🧩 What I Do
 

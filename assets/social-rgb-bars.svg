@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Animated RGB bars</title>
+  <defs>
+    <linearGradient id="rgb" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/><stop offset=".33" stop-color="#4169FF"/><stop offset=".67" stop-color="#C026FF"/><stop offset="1" stop-color="#FF2D8D"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1200 0;1200 0;-1200 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-150%" width="120%" height="400%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="16" y="5" width="1168" height="5" rx="2.5" fill="url(#rgb)" opacity=".72" filter="url(#glow)"/>
+  <rect x="80" y="14" width="1040" height="7" rx="3.5" fill="url(#rgb)" filter="url(#glow)">
+    <animate attributeName="opacity" values=".65;1;.65" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="210" y="25" width="780" height="3" rx="1.5" fill="url(#rgb)" opacity=".82" filter="url(#glow)"/>
+</svg>
