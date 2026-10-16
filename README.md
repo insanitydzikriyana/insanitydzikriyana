@@ -2,7 +2,7 @@
 
 <p><strong>HEY THERE, I'M</strong></p>
 
-<p><strong>Insanity Dzikriyana</strong></p>
+<img src="./assets/name-typing.svg" alt="Insanity types from left to right, then Dzikriyana types from right to left" width="100%">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=700&color=E6EDF3&center=true&vCenter=true&width=760&lines=Software+Engineer;Programmer;PHP+%26+Laravel+Developer;Hosting+%26+Server+Specialist" alt="Software Engineer, Programmer, PHP and Laravel Developer, Hosting and Server Specialist">
 

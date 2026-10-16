@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="46" viewBox="0 0 760 46" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Insanity types left to right, then Dzikriyana types right to left</title>
+  <defs>
+    <clipPath id="leftReveal">
+      <rect x="300" y="0" width="0" height="46">
+        <animate attributeName="width" values="0;150;150;0;0" keyTimes="0;.12;.38;.5;1" dur="8s" begin="0s;8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="rightReveal">
+      <rect x="480" y="0" width="0" height="46">
+        <animate attributeName="x" values="480;300;300;480;480" keyTimes="0;.12;.38;.5;1" dur="8s" begin="4s;12s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;180;180;0;0" keyTimes="0;.12;.38;.5;1" dur="8s" begin="4s;12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <text x="380" y="32" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
+  <text x="380" y="32" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#rightReveal)">Dzikriyana</text>
+</svg>
