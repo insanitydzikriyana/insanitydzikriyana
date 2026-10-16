@@ -2,17 +2,17 @@
   <title id="title">Insanity Dzikriyana animated together on one line</title>
   <defs>
     <clipPath id="leftReveal">
-      <rect x="80" y="0" width="0" height="46">
-        <animate attributeName="width" values="0;220;220" keyTimes="0;.45;1" dur="1.4s" fill="freeze"/>
+      <rect x="250" y="0" width="0" height="46">
+        <animate attributeName="width" values="0;120;120;0;0" keyTimes="0;.08;.70;.76;1" dur="8s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="rightReveal">
-      <rect x="680" y="0" width="0" height="46">
-        <animate attributeName="x" values="680;460;460" keyTimes="0;.45;1" dur="1.4s" fill="freeze"/>
-        <animate attributeName="width" values="0;220;220" keyTimes="0;.45;1" dur="1.4s" fill="freeze"/>
+      <rect x="515" y="0" width="0" height="46">
+        <animate attributeName="x" values="515;375;375;515;515" keyTimes="0;.08;.70;.76;1" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;140;140;0;0" keyTimes="0;.08;.70;.76;1" dur="8s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
   </defs>
-  <text x="90" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
-  <text x="460" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#rightReveal)">Dzikriyana</text>
+  <text x="260" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
+  <text x="375" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#rightReveal)">Dzikriyana</text>
 </svg>
