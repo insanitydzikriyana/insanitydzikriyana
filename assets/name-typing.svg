@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="46" viewBox="0 0 760 46" fill="none" role="img" aria-labelledby="title">
-  <title id="title">Insanity Dzikriyana typed in two directions at the same time</title>
+  <title id="title">Insanity Dzikriyana animated together on one line</title>
   <defs>
     <clipPath id="leftReveal">
-      <rect x="300" y="0" width="0" height="46">
-        <animate attributeName="width" values="0;150;150;0;0" keyTimes="0;.12;.38;.5;1" dur="8s" repeatCount="indefinite"/>
+      <rect x="250" y="0" width="0" height="46">
+        <animate attributeName="width" values="0;130;130" keyTimes="0;.45;1" dur="2.2s" fill="freeze"/>
       </rect>
     </clipPath>
     <clipPath id="rightReveal">
-      <rect x="480" y="0" width="0" height="46">
-        <animate attributeName="x" values="480;300;300;480;480" keyTimes="0;.12;.38;.5;1" dur="8s" repeatCount="indefinite"/>
-        <animate attributeName="width" values="0;180;180;0;0" keyTimes="0;.12;.38;.5;1" dur="8s" repeatCount="indefinite"/>
+      <rect x="520" y="0" width="0" height="46">
+        <animate attributeName="x" values="520;370;370" keyTimes="0;.45;1" dur="2.2s" fill="freeze"/>
+        <animate attributeName="width" values="0;150;150" keyTimes="0;.45;1" dur="2.2s" fill="freeze"/>
       </rect>
     </clipPath>
   </defs>
-  <text x="380" y="32" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
-  <text x="380" y="32" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#rightReveal)">Dzikriyana</text>
+  <text x="255" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#leftReveal)">Insanity</text>
+  <text x="370" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="650" fill="#DCE6F2" clip-path="url(#rightReveal)">Dzikriyana</text>
 </svg>
