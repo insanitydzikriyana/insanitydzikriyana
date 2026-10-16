@@ -6,8 +6,6 @@
 
 <img src="./assets/rgb-line.svg" alt="Animated zigzag RGB line" width="78%">
 
-<p>PHP & Laravel · Web Apps · Bots · Hosting & Server Management</p>
-
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/insanity-dzikriyana/)
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/insanitydzikriyana)
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kerjainsanity@gmail.com)
@@ -20,6 +18,8 @@
 <br>
 
 <img src="./assets/intro-code.svg" alt="Animated code introduction: Insanity Dzikriyana, Software Engineer and Hosting and Server Specialist from Bandung, graduate of SMKN 1 Karawang" width="100%">
+
+<img src="./assets/social-rgb-bars.svg" alt="Three animated thick RGB lines below the code introduction" width="100%">
 
 <img src="./assets/developer-typing.svg" alt="Animated illustration of a developer typing at a computer" width="100%">
 

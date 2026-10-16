@@ -32,14 +32,6 @@
       <text x="78" y="98">01</text><text x="78" y="126">02</text><text x="78" y="154">03</text>
       <text x="78" y="182">04</text><text x="78" y="210">05</text><text x="78" y="238">06</text>
     </g>
-    <g fill="#D6E2F3">
-      <text x="98" y="98">const profile = {</text>
-      <text x="98" y="126">  name: "Insanity Dzikriyana",</text>
-      <text x="98" y="154">  role: ["Software Engineer", "Hosting &amp; Server"],</text>
-      <text x="98" y="182">  origin: "Bandung, Indonesia",</text>
-      <text x="98" y="210">  education: "Graduate of SMKN 1 Karawang",</text>
-      <text x="98" y="238">  mission: "Innovate for Indonesia." };</text>
-    </g>
     <g fill="url(#keyword)">
       <text x="98" y="98" clip-path="url(#reveal1)">const profile = {</text>
       <text x="98" y="126" clip-path="url(#reveal2)">  name: "Insanity Dzikriyana",</text>
