@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=700&color=E6EDF3&center=true&vCenter=true&width=760&lines=Software+Engineer;Programmer;PHP+%26+Laravel+Developer;Hosting+%26+Server+Specialist" alt="Software Engineer, Programmer, PHP and Laravel Developer, Hosting and Server Specialist">
 
+<img src="./assets/rgb-line.svg" alt="Animated zigzag RGB line" width="78%">
+
 <p>PHP & Laravel · Web Apps · Bots · Hosting & Server Management</p>
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/insanity-dzikriyana/)
@@ -16,8 +18,6 @@
 <br>
 
 <img src="./assets/developer-typing.svg" alt="Animated illustration of a developer typing at a computer" width="100%">
-
-<img src="./assets/rgb-line.svg" alt="Animated RGB line" width="100%">
 
 </div>
 
